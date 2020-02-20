@@ -1,0 +1,22 @@
+Header header
+GSHeader gs_header
+string flight_plan
+string trajectory
+string segment
+string feature
+float32 x
+bool x_feature_fix
+float32 y
+bool y_feature_fix
+float32 z
+bool z_feature_fix
+float32 yaw
+bool yaw_feature_fix
+uint16 id
+string message
+uint8 code
+string detail
+string color1
+string color2
+string attribute
+

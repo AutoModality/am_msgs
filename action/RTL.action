@@ -1,0 +1,10 @@
+# Height and heading after launch
+float32 speed
+
+---
+bool result
+
+---
+#progress to next milestone is in percent
+uint8 progress
+bool in_air

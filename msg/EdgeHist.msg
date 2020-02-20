@@ -1,0 +1,15 @@
+Header header
+float64 resolution_m
+float64 min_y_m
+float64 max_y_m
+int16 num_bins
+int32[] count_bins
+float64[] total_bins
+float64[] smooth_bins
+float64[] ave_bins
+int32 count
+int32 total
+bool edge_exists
+int32 edge_bin
+float32 edge_y_m
+float32 edge_covariance

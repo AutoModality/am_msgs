@@ -1,0 +1,19 @@
+# Service to send flight plans to the controllers
+# request message
+
+# Commands to be executed as part of the service
+# If you make changes to these then also change flightplan_type.h
+
+# key="FP_LOAD" value="id"	load the enclosed flight plan and give it id
+# key="FP_LOAD_JSON_FILE value="file name"  load json flight plan from file
+# key="FP_LOAD_PX4_FILE value="file name"  load PX4 flight plan from file
+# key="FP_DELETE" value="id" delete flight plan with id
+
+KeyValue command
+
+# Actual flight plan to load if the command above is LOAD_FLIGHT_PLAN
+VxFlightPlanCmd[] msg
+---
+# repsonse
+# SUCCESS or error message if not
+string result

@@ -1,0 +1,15 @@
+string name
+bool active
+float32 range_min_m
+float32 range_max_m
+bool publish_pc
+bool publish_img_left
+bool publish_img_right
+bool publish_depth
+bool publish_dist
+bool use_for_agl
+float32 agl_top_m
+float32 agl_bot_m
+uint16 fps_ave
+uint16 fps_min
+uint16 fps_max

@@ -1,0 +1,25 @@
+# Service to initiate execution of a mission
+
+# request
+
+# Commands to be executed as part of the service
+# If you make changes to these then also change mission_cmd_type.h
+
+# key="EXECUTE" value="mission name" load and execute the mission name
+# key="RESUME" value=""  resume previously paused mission
+# key="ABORT" value=""   abort currently executing mission
+# key="PAUSE" value=""	 pause currently executing mission
+
+# Note the difference between MISSON_NAME and MISSION_FILE is that MISSION_FILE
+# specifies an file name that may include path names, whereas MISSION_NAME is
+# concatenated with the configured mission directory name to construct the name of the
+# mission. 
+# See mission.yaml to see how to configure the mission directory.
+
+KeyValue command
+
+---
+# repsonse
+
+# SUCCESS or error message if not
+string result

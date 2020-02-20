@@ -1,0 +1,3 @@
+# Get the map as a octomap
+---
+brain_box_msgs/AMMap map

@@ -1,0 +1,2 @@
+FeatureStatus feature_status
+geometry_msgs/Pose feature_pose

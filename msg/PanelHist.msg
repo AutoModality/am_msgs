@@ -1,0 +1,15 @@
+Header header
+float32 resolution_m
+float32 min_x_m
+float32 max_x_m
+float32 min_z_m
+float32 max_z_m
+int16 num_bins
+float32[] raw_bins
+float32[] smooth_bins
+float32[] norm_bins
+int32 total_points
+bool exists
+int32 bin
+float32 dist_m
+float32 covariance

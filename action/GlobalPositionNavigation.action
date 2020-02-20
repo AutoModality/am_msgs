@@ -1,0 +1,17 @@
+#latitude is in degree
+float64 latitude
+#longitude is in degree
+float64 longitude
+#altitude in meters
+float32 altitude
+#yaw in degrees +- 180
+float32 yaw
+#speed in m/s
+float32 speed
+
+---
+bool result
+---
+#progress is in percent
+uint8 progress
+

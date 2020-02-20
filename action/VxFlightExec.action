@@ -1,0 +1,20 @@
+# Action to execute flight plans
+# goal
+
+# Commands to be executed as part of the service
+# If you make changes to these then also change flightplan_type.h
+
+# key="FP_START" value="id"			start flight plan with id
+# key="FP_ABORT" value=""  			abort currently executing flight plan
+# key="FP_PAUSE" value=""			pause currently executing flight plan  
+
+KeyValue command
+
+---
+# result
+# SUCCESS or error message if not
+string result
+
+---
+#feedback
+VxFlightPlanStatus status

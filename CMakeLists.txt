@@ -179,6 +179,9 @@ catkin_package(
 #############
 ## Install ##
 #############
-install(DIRECTORY include/${PROJECT_NAME}/
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
+if (EXISTS include/${PROJECT_NAME})
+install(DIRECTORY include/${PROJECT_NAME}
+ DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
+endif()
+
 

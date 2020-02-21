@@ -1,16 +1,3 @@
-# ros-debian-template
-Debian packaging of ROS nodes with Continuous Integration and Deployment
+# AutoModality ROS Messages
 
-# New directories that will be built into a package are
-
-
-
-- action 
-- cfg
-- include
-- launch
-- msg 
-- scripts
-- src
-- srv
-- test
+All messages are in a public repo so third party packges can depend

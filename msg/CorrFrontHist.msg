@@ -1,0 +1,13 @@
+Header header
+float32 resolution_m
+float32 min_x_m
+float32 max_x_m
+int16 num_bins
+float32[] raw_bins
+float32[] smooth_bins
+float32[] norm_bins
+int32 total_points
+bool beam_exists
+int32 beam_bin
+float32 beam_depth_m
+float32 beam_confidence

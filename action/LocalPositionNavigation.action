@@ -1,0 +1,14 @@
+#x,y,z are in meters
+float32 x
+float32 y
+float32 z
+#yaw in degrees +- 180
+float32 yaw
+#speed in m/s
+float32 speed
+---
+bool result
+---
+#progress is in percent
+uint8 progress 
+

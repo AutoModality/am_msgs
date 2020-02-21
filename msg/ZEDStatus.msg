@@ -1,0 +1,9 @@
+Header header
+Status status
+uint16 fps
+uint16 loop_ave_ms
+uint16 loop_min_ms
+uint16 loop_max_ms
+uint16 grab_ave_ms
+uint16 grab_min_ms
+uint16 grab_max_ms

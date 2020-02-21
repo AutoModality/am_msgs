@@ -1,0 +1,9 @@
+# Milestones
+VxTrajectory trajectory
+---
+bool result
+---
+#progress to next milestone is in percent
+uint8 location_progress
+uint16 index_progress
+string wp_progress

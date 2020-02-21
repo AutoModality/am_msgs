@@ -1,0 +1,13 @@
+uint64 time_usec
+uint8 fix_type
+uint32 lat
+uint32 lon
+uint32 alt
+uint16 eph
+uint16 epv
+uint16 vel
+uint16 vn
+uint16 ve
+uint16 vd
+uint16 cog
+uint8 satellites_visible

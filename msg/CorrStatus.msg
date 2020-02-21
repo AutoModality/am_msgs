@@ -1,0 +1,18 @@
+Header header
+Status status
+
+uint16 ss_top_fps
+MaxMinAve ss_top_process_time_ms
+MaxMinAve ss_top_latency_ms
+
+uint16 ss_front_fps
+MaxMinAve ss_front_process_time_ms
+MaxMinAve ss_front_latency_ms
+
+uint16 lidar_fps
+MaxMinAve lidar_process_time_ms
+MaxMinAve lidar_latency_ms
+
+float32 lidar_weight
+bool disabled
+bool valid_data

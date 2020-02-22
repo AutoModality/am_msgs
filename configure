@@ -6,6 +6,7 @@ CURDIR=$(readlink -f $(pwd))
 mkdir -p catkin_ws/src/${PACKAGE}
 WORKSPACE=$(readlink -f ./catkin_ws)
 echo "AM_PLATFORM is ${AM_PLATFORM}"
+cp -r brain_box_msgs catkin_ws/src/${PACKAGE}
 cp -r -p {package.xml,CMakeLists.txt} catkin_ws/src/${PACKAGE}
 cp -r -p {msg,srv,scripts,src,cfg,include,test,launch,action} catkin_ws/src/${PACKAGE}
 cd catkin_ws

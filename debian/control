@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: info <info@automodality.com>
 Build-Depends: debhelper (>= 9.0.0), ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-nav-msgs, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
-Homepage: https://github.com/AutoModality/am-utils
+Homepage: https://github.com/AutoModality/am-msgs
 Standards-Version: 3.9.2
 
 Package: ros-kinetic-am-msgs

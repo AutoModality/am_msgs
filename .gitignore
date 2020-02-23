@@ -32,4 +32,4 @@
 *.app
 
 catkin_ws
-debian/ros-kinetic-*
+debian/ros-melodic-*

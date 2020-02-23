@@ -2,11 +2,11 @@ Source: ros-melodic-am-msgs
 Section: misc
 Priority: extra
 Maintainer: info <info@automodality.com>
-Build-Depends: debhelper (>= 9.0.0), ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-uuid-msgs, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-nav-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs
 Homepage: https://github.com/AutoModality/am-msgs
 Standards-Version: 3.9.2
 
 Package: ros-melodic-am-msgs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs
-Description: The am msgs package
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-uuid-msgs, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: ROS Message interfaces for AutoModality AMROS

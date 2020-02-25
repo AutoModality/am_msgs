@@ -13,5 +13,6 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
     ros-kinetic-geometry-msgs, 
     ros-kinetic-nav-msgs, 
     ros-kinetic-sensor-msgs, 
-    ros-kinetic-std-msgs, 
-Description: The am msgs package
+    ros-kinetic-std-msgs,
+    ros-kinetic-uuid-msgs, 
+Description: AutoModality message interfaces for inter-node communication.

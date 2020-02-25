@@ -2,7 +2,8 @@ Source: ros-kinetic-am-msgs
 Section: misc
 Priority: extra
 Maintainer: info <info@automodality.com>
-Build-Depends: debhelper (>= 9.0.0)
+Build-Depends: debhelper (>= 9.0.0), 
+    ros-kinetic-uuid-msgs
 Homepage: https://github.com/AutoModality/am-msgs
 Standards-Version: 3.9.2
 

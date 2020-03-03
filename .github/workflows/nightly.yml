@@ -1,9 +1,8 @@
 name: Story Development
 
 on:
-  push:
-    branches-ignore:
-      - master
+  schedule:
+    - cron: '30 20 * * *'
 jobs:
   build:
     runs-on: ubuntu-18.04

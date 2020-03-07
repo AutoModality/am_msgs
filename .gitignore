@@ -33,3 +33,4 @@
 
 catkin_ws
 debian/ros-melodic-*
+debian/ros-kinetic-*

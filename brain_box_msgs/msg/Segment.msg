@@ -3,4 +3,4 @@
 
 sensor_msgs/PointCloud2 points
 shape_msgs/Plane plane
-pc_segmentation/Line[] edges
+brain_box_msgs/Line[] edges

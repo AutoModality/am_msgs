@@ -1,18 +1,18 @@
-Source: ros-kinetic-am-msgs
+Source: ros-melodic-am-msgs
 Section: misc
 Priority: extra
 Maintainer: info <info@automodality.com>
 Build-Depends: debhelper (>= 9.0.0), 
-    ros-kinetic-uuid-msgs,
+    ros-melodic-uuid-msgs,
 Homepage: https://github.com/AutoModality/am-msgs
 Standards-Version: 3.9.2
 
-Package: ros-kinetic-am-msgs
+Package: ros-melodic-am-msgs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, 
-    ros-kinetic-geometry-msgs, 
-    ros-kinetic-nav-msgs, 
-    ros-kinetic-sensor-msgs, 
-    ros-kinetic-std-msgs,
-    ros-kinetic-uuid-msgs, 
+    ros-melodic-geometry-msgs, 
+    ros-melodic-nav-msgs, 
+    ros-melodic-sensor-msgs, 
+    ros-melodic-std-msgs,
+    ros-melodic-uuid-msgs, 
 Description: AutoModality message interfaces for inter-node communication.

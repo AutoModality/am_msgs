@@ -13,6 +13,7 @@
   <depend>uuid_msgs</depend>
   <depend>std_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>shape_msgs</depend>
 
   <build_depend>message_generation</build_depend>
   <build_depend>actionlib</build_depend>

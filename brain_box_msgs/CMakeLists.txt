@@ -10,7 +10,8 @@ find_package(catkin REQUIRED COMPONENTS
   actionlib_msgs
   actionlib
   std_msgs
-  sensor_msgs)
+  sensor_msgs
+  shape_msgs)
 
 ###################################
 ## catkin specific configuration ##
@@ -45,6 +46,7 @@ add_message_files(
 	FeatureStatus.msg
 	FeatureStatusList.msg
 	FeatureStatusPose.msg
+	Float32ArrayStamped.msg
 	FTPCmnd.msg
 	FTPStatus.msg
 	Gimbal.msg
@@ -61,6 +63,8 @@ add_message_files(
 	Heartbeat.msg
 	KeyValue.msg
 	LidarStatus.msg 
+	Line.msg
+	LineP2P.msg
 	LaserCluster.msg
 	LaserClusters.msg
 	Latency_Image.msg
@@ -96,6 +100,8 @@ add_message_files(
 	Row.msg
 	RowView.msg 
 	RPYMsgs.msg
+	Segment.msg
+	SegmentationStamped.msg
 	SPStatus.msg 
 	Status.msg 
 	SSStatus.msg 
@@ -162,7 +168,7 @@ add_action_files(
 	RTL.action
 	VxFlightExec.action)
 
-generate_messages( DEPENDENCIES uuid_msgs std_msgs nav_msgs geometry_msgs actionlib_msgs sensor_msgs)
+generate_messages( DEPENDENCIES uuid_msgs std_msgs nav_msgs geometry_msgs actionlib_msgs sensor_msgs shape_msgs)
 
 set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
 
@@ -174,6 +180,7 @@ catkin_package(
     uuid_msgs
     std_msgs
     sensor_msgs
+	shape_msgs
 )
 
 #############

@@ -28,7 +28,7 @@ add_message_files(
 	BeaconRangeMsg.msg
 	BlinkMCommand.msg
 	BoundingBox.msg
-	BoundingBoxs.msg
+	BoundingBoxes.msg
     C2Status.msg
 	CeilingHist.msg
 	CeilingPC2.msg

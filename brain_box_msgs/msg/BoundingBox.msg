@@ -1,7 +1,4 @@
-string Class
-string camera
-int64 img_width
-int64 img_height
+string feature_name
 float64 probability
 int64 xmin
 int64 ymin

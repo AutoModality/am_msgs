@@ -155,6 +155,7 @@ add_service_files(
 	GlobalPositionControl.srv
 	LocalPositionControl.srv
 	SDKPermissionControl.srv
+	SegmentSearch.srv
 	VelocityControl.srv
 	VxFlightPlan.srv
 	VxMissionExec.srv)

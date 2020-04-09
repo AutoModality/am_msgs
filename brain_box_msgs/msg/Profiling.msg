@@ -1,4 +1,4 @@
-# Profiling message carries a list of execution times with their associated names.
+# Profiling message carries a list of execution times with their associated names
 
 std_msgs/Header header
 

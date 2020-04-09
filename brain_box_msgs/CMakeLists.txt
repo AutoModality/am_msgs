@@ -29,7 +29,7 @@ add_message_files(
 	BlinkMCommand.msg
 	BoundingBox.msg
 	BoundingBoxes.msg
-  C2Status.msg
+	C2Status.msg
 	CeilingHist.msg
 	CeilingPC2.msg
 	CeilingStatus.msg
@@ -40,7 +40,7 @@ add_message_files(
 	CorrSidesYawList.msg
 	CorrStatus.msg
 	CRUD.msg
-  DelayStats.msg
+	DelayStats.msg
 	DepthCmnd.msg
 	DepthStatus.msg
 	EdgeHist.msg
@@ -99,6 +99,7 @@ add_message_files(
 	PanelHist.msg
 	PIDParam.msg
 	Point2.msg
+	Profiling.msg
 	Range.msg
 	RangeBall.msg
 	RGB.msg

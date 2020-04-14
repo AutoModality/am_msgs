@@ -93,6 +93,9 @@ add_message_files(
 	MarkerType.msg
 	MaxMinAve.msg
 	NodeStatus.msg
+	NormalsStamped.msg
+	NormalWithPoint.msg
+	NormalsWithPointsStamped.msg
 	OdomLatency.msg
 	OperatorMsg.msg
 	PanelStatus.msg

@@ -1,3 +1,6 @@
-geometry_msgs/Vector3 normals
+shape_msgs/Plane plane
+float64 width
+float64 height
+
 ---
 string feature_id

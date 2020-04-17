@@ -68,6 +68,7 @@ add_message_files(
 	Heartbeat.msg
 	KeyValue.msg
 	LidarStatus.msg 
+	LifeCycleState.msg 
 	Line.msg
 	LineP2P.msg
 	LaserCluster.msg

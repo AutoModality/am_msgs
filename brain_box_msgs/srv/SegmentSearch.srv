@@ -1,4 +1,4 @@
-shape_msgs/Plane plane
+geometry_msgs/Vector3 normal
 float64 width
 float64 height
 

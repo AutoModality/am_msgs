@@ -1,4 +1,4 @@
-name: PR update
+name: Updated Pull Requests
 
 on:
     push:

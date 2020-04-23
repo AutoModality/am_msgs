@@ -34,3 +34,4 @@
 catkin_ws
 debian/ros-melodic-*
 debian/ros-kinetic-*
+ros-melodic-am-msgs-*.deb

@@ -112,6 +112,7 @@ add_message_files(
 	RPYMsgs.msg
 	Segment.msg
 	SegmentationStamped.msg
+	SeqNo.msg
 	SPStatus.msg 
 	Status.msg 
 	SSStatus.msg 

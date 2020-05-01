@@ -69,6 +69,7 @@ add_message_files(
 	KeyValue.msg
 	LidarStatus.msg 
 	LifeCycleState.msg 
+	LifeCycleCommand.msg 
 	Line.msg
 	LineP2P.msg
 	LaserCluster.msg

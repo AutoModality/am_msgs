@@ -1,13 +1,15 @@
-uint8 UNKNOWN=0
+uint8 OFF=0
 uint8 BOOTING=1
 uint8 READY=2
-uint8 ARMED=3
-uint8 AUTO_FEATURE=4
-uint8 AUTO_NO_FEATURE=5
-uint8 HOLD=6
-uint8 ERROR=7
-uint8 MANUAL=8
-uint8 LAST_STATE=8
+uint8 ARMING=3
+uint8 ARMED=4
+uint8 AUTO=5
+uint8 SEMI_AUTO=6
+uint8 HOLD=7
+uint8 ABORT=8
+uint8 MANUAL=9
+uint8 SHUTDOWN=10
+uint8 LAST_STATE=10
 
 Header header
 uint8 state

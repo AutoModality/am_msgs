@@ -102,6 +102,8 @@ add_message_files(
 	OperatorMsg.msg
 	PanelStatus.msg
 	PanelHist.msg
+	ProximityVector.msg
+	ProximityList.msg
 	PIDParam.msg
 	Point2.msg
 	Profiling.msg

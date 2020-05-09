@@ -53,9 +53,10 @@ jobs:
         uses: repo-sync/pull-request@v2
         with:
           pr_draft: false
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.AMGITBOT_PAT }}
       - name: Merge PR to master
         uses: ridedott/merge-me-action@master
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-   
+          GITHUB_LOGIN: amgitbot
+          GITHUB_TOKEN: ${{ secrets.AMGITBOT_PAT }}
+          MERGE_METHOD: MERGE

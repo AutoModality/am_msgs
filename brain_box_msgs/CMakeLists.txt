@@ -100,6 +100,7 @@ add_message_files(
 	NormalsWithPointsStamped.msg
 	OdomLatency.msg
 	OperatorMsg.msg
+	PolarPointCloud.msg
 	PanelStatus.msg
 	PanelHist.msg
 	ProximityVector.msg
@@ -188,6 +189,7 @@ generate_messages( DEPENDENCIES uuid_msgs std_msgs nav_msgs geometry_msgs action
 set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
 
 catkin_package(
+
   CATKIN_DEPENDS
     message_runtime
     geometry_msgs

@@ -1,3 +1,4 @@
 Header header
-float32[] angles_rad
+float32[] altitudes_r
+float32[] azimuths_r
 sensor_msgs/LaserScan[] scans

@@ -100,6 +100,8 @@ add_message_files(
 	NormalsWithPointsStamped.msg
 	OdomLatency.msg
 	OperatorMsg.msg
+	PassageFeature.msg
+	PassageFeatures.msg
 	PolarPointCloud.msg
 	PanelStatus.msg
 	PanelHist.msg

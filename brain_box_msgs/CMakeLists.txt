@@ -102,6 +102,7 @@ add_message_files(
 	OperatorMsg.msg
 	PassageFeature.msg
 	PassageFeatures.msg
+	PassageFeatureWindow.msg
 	PolarPointCloud.msg
 	PanelStatus.msg
 	PanelHist.msg

@@ -2,5 +2,9 @@ string feature_type
 float64 width
 float64 height
 float64 heading
-int64 number_of_hits
+int64 left_index
+int64 right_index
+brain_box_msgs/PassageFeatureWindow members
+brain_box_msgs/PassageFeatureWindow left_window
+brain_box_msgs/PassageFeatureWindow right_window
 geometry_msgs/Point32 center

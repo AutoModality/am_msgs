@@ -2,6 +2,7 @@ string feature_type
 float64 width
 float64 height
 float64 heading
+int64 center_index
 int64 left_index
 int64 right_index
 brain_box_msgs/PassageFeatureWindow members

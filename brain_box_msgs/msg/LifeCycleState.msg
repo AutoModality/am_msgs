@@ -14,7 +14,7 @@ uint8 STATE_LAST=10
 uint8 STATUS_OK=0				# all systems normal
 uint8 STATUS_WARN=1				# running on edge of specifications, output is suspect
 uint8 STATUS_ERROR=2			# running well out of specificaiton, output can't be trusted
-uint8 STATUS_LAST=3
+uint8 STATUS_LAST=2
 
 Header header					# frame_id field is irrelevant
 string node_name				# node name

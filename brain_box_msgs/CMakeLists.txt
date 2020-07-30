@@ -33,6 +33,7 @@ add_message_files(
 	CeilingHist.msg
 	CeilingPC2.msg
 	CeilingStatus.msg
+	Collision.msg
 	CommsStatus.msg
 	ControlVariables.msg
 	CorrFrontHist.msg

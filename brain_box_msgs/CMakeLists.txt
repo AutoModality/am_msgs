@@ -119,7 +119,9 @@ add_message_files(
 	RowView.msg 
 	RPYMsgs.msg
 	Segment.msg
+	SegmentationIndicesStamped.msg
 	SegmentationStamped.msg
+	SegmentIndex.msg
 	SeqNo.msg
 	SPStatus.msg 
 	Status.msg 

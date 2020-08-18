@@ -5,7 +5,7 @@ float32 right_m
 float32 back_m
 float32 left_m
 float32 up_m
-float32 motion_m
+float32[3] motion_m
 uint8   downHealth
 uint8   frontHealth
 uint8   rightHealth

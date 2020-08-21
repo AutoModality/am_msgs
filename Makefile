@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 default:
-	source /opt/ros/melodic/setup.bash && cd catkin_ws && catkin clean -f -i -y && AM_PLATFORM=AM_VM catkin build -j3 --no-status
+	source /opt/ros/melodic/setup.bash && cd catkin_ws && catkin clean -f -i -y && AM_PLATFORM=AM_VM catkin build -j8 --no-status
 	rm -f catkin_ws/install/lib/pkgconfig/catkin_tools_prebuild.pc
 	@echo "Built!!!!"
 

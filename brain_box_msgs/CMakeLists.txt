@@ -100,6 +100,7 @@ add_message_files(
 	NormalWithPoint.msg
 	NormalsWithPointsStamped.msg
 	OdomLatency.msg
+	OperatorCommand.msg
 	OperatorMsg.msg
 	PassageFeature.msg
 	PassageFeatures.msg

@@ -11,3 +11,4 @@ uint8 SHUTDOWN=7	# stopping the system completely
 
 Header header					# frame_id field is irrelevant
 string node_name				# node sending the commands for the operator
+uint8 command					# One of the enumerated commands above

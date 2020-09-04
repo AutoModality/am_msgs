@@ -13,7 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   shape_msgs)
 
-file(GLOB msg_files
+file(GLOB msg_files RELATIVE msg/
     msg/*.msg
 )
 

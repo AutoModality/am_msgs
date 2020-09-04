@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   shape_msgs)
 
 file(GLOB msg_files RELATIVE msg/
-    msg/*.msg
+    *.msg
 )
 
 ###################################

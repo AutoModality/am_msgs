@@ -8,6 +8,7 @@ uint8 DIRECTION_RIGHT=3
 uint8 DIRECTION_UP=4
 uint8 DIRECTION_DOWN=5
 uint8 DIRECTION_MOTION=6
+uint8 DIRECTION_LAST=6
 
 # Direction of this view using one of the above enums
 uint8 direction

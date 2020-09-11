@@ -4,12 +4,13 @@ uint8 READY=2
 uint8 ARMING=3
 uint8 ARMED=4
 uint8 AUTO=5
-uint8 SEMI_AUTO=6
-uint8 HOLD=7
-uint8 ABORT=8
-uint8 MANUAL=9
-uint8 SHUTDOWN=10
-uint8 LAST_STATE=10
+uint8 DISARMING=6
+uint8 SEMI_AUTO=7
+uint8 HOLD=8
+uint8 ABORT=9
+uint8 MANUAL=10
+uint8 SHUTDOWN=11
+
 
 Header header
 uint8 state

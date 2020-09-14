@@ -37,6 +37,7 @@ add_message_files(
 	CollisionView.msg
 	CollisionViews.msg
 	CommsStatus.msg
+  ControllerState.msg
 	ControlVariables.msg
 	CorrFrontHist.msg
 	CorrSidesHist.msg

@@ -116,6 +116,7 @@ add_message_files(
 	PIDParam.msg
 	Point2.msg
 	Profiling.msg
+	ProfilingArray.msg
 	Range.msg
 	RangeBall.msg
 	RGB.msg

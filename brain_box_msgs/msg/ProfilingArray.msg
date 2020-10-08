@@ -3,6 +3,6 @@ std_msgs/Header header
 
 string node_name
 
-brain_box_msgs/Profiling main
+brain_box_msgs/Profiling overall
 
 brain_box_msgs/Profiling[] steps

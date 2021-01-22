@@ -1,10 +1,1 @@
-ros-melodic-am-msgs (999.9.9-local) unstable; urgency=low
-
-  [ Nobody ]
-  * local changes only
-  This file will be overwritten
-  
- -- Developer <nobody@nowhere.com>  Mon, 21 Feb 2011 14:30:22 +0100
-
-
-
+ros-melodic-am-msgs (0.20200922235912) unstable; urgency=medium

@@ -14,6 +14,9 @@ float64[3] start_loc
 float64[3] maneuver_vector
 float64 maneuver_length
 float64 target_yaw_rad
+float64 target_yaw_x
+float64 target_yaw_y
+uint8 yaw_type
 
 bool body_FLU_frame
 

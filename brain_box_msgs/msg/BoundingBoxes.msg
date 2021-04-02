@@ -1,5 +1,3 @@
 Header header
-string camera
-int64 img_width
-int64 img_height
+Header image_header
 BoundingBox[] bounding_boxes

@@ -187,6 +187,7 @@ add_service_files(
 add_action_files(
 	DIRECTORY action
 	FILES
+	CheckForObjects.action
 	GlobalPositionNavigation.action
 	LocalPositionNavigation.action
 	WaypointNavigation.action

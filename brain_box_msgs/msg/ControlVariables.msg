@@ -27,6 +27,10 @@ float64 speed
 float64 max_acceleration
 bool speed_constrained
 
+bool ramp_speed
+float64 ramp_speed_start
+float64 ramp_speed_end
+
 #    ControlState drone_state
 float64[3] ds_location
 float64[3] ds_location_confidence

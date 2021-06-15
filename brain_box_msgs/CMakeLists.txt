@@ -170,8 +170,7 @@ add_service_files(
 	AMMapBoundingBoxQuery.srv
 	AttitudeControl.srv
 	CameraActionControl.srv
-	DjiCameraSelect.srv
-	DjiCameraSelectMulti.srv
+	CameraSelect.srv
 	DroneTaskControl.srv
 	GetAMMap.srv
 	GimbalAngleControl.srv

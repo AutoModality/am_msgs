@@ -1,8 +1,8 @@
 uint8 VGA_FRONT=1
 uint8 VGA_LEFT=2
-uint8 VGA_DOWN=3
-uint8 VGA_BOTTOM=4
-uint8 VGA_RIGHT=5
+uint8 VGA_RIGHT=3
+uint8 VGA_REAR=4
+uint8 VGA_BOTTOM=5
 uint8 VGA_TOP=6
 uint8 MAIN=7
 uint8 FPV=8

@@ -5,6 +5,8 @@ float64 heading
 int64 center_index
 int64 left_index
 int64 right_index
+float64 left_heading
+float64 right_heading
 brain_box_msgs/PassageFeatureWindow members
 brain_box_msgs/PassageFeatureWindow left_window
 brain_box_msgs/PassageFeatureWindow right_window

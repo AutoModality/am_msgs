@@ -7,6 +7,10 @@ int64 left_index
 int64 right_index
 float64 left_heading
 float64 right_heading
+float64 left_miss_heading
+float64 right_miss_heading
+float64 left_width
+float64 right_width
 brain_box_msgs/PassageFeatureWindow members
 brain_box_msgs/PassageFeatureWindow left_window
 brain_box_msgs/PassageFeatureWindow right_window

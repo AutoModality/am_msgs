@@ -77,7 +77,7 @@ jobs:
       - name: Deploy if published
         if: steps.published.outputs.value == 'true'
         id: deploy
-        run: amros dev docker run -dm --command="deploy-amros developer ${{ steps.version.outputs.value }} release ${{ secrets.CLOUDSMITH_API_KEY }}"
+        run: amros dev docker run -dm --command="deploy-amros ${{ secrets.DEVELOPER_PASSWORD }} ${{ steps.version.outputs.value }} release ${{ secrets.CLOUDSMITH_API_KEY }}"
   notify-amros:
     needs: release-package
     runs-on: ubuntu-latest

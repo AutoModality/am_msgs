@@ -139,6 +139,7 @@ add_message_files(
 	SuperStatus.msg
 	Super2Status.msg
 	SystemReport.msg
+	SystemState.msg
 	TargetPose.msg 
 	TargetPoseArray.msg 
 	VideoCmnd.msg

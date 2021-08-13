@@ -135,6 +135,7 @@ add_message_files(
 	StampedAltimeter.msg
 	StampedHeartBeat.msg
 	StampedInterruptTime.msg
+	StationStatus.msg
 	SuperNodeStatus.msg
 	SuperStatus.msg
 	Super2Status.msg

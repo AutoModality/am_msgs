@@ -14,7 +14,9 @@ int32 ts
 # bit 2       | Roll invalid bit, the same as bit[1]  | Roll invalid bit, the same as bit[1]
 # bit 3       |Pitch invalid bit, the same as bit[1]  | Pitch invalid bit, the same as bit[1]
 # bit [4:7]   | bit [4:7]: reserved, set to be 0      |
-uint8 mode
+int32 mode
+
+string cmd
 
 #the angles are in radian
 float32 pitch

@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 geometry_msgs/Point position
-BBAttitude attitude
+brain_box_msgs/BBAttitude attitude
 geometry_msgs/Vector3 linear_vel

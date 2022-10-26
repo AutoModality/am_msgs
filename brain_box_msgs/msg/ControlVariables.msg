@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 string controller_name
 
@@ -18,7 +18,7 @@ float64 target_yaw_x
 float64 target_yaw_y
 uint8 yaw_type
 
-bool body_FLU_frame
+bool body_flu_frame
 
 uint8 control_type
 bool rotate_only
@@ -34,7 +34,7 @@ float64 ramp_speed_end
 #    ControlState drone_state
 float64[3] ds_location
 float64[3] ds_location_confidence
-float64[3] ds_velocity_FLU
+float64[3] ds_velocity_flu
 float64 ds_yaw
 float64 ds_yaw_confidence
 float64 ds_update_age

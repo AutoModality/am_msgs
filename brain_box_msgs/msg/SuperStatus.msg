@@ -1,14 +1,14 @@
-Header header
+std_msgs/Header header
 
-Status status
+brain_box_msgs/Status status
 
-Status c2_status
-Status comms_status
-Status corr_status
-Status lidar_status
-Status ss1_status
-Status ss2_status
-Status vislog_status
+brain_box_msgs/Status c2_status
+brain_box_msgs/Status comms_status
+brain_box_msgs/Status corr_status
+brain_box_msgs/Status lidar_status
+brain_box_msgs/Status ss1_status
+brain_box_msgs/Status ss2_status
+brain_box_msgs/Status vislog_status
 
 int8 cpu_percent_total
 int8[] cpu_percent_cores

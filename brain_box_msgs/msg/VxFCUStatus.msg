@@ -36,4 +36,4 @@ float32 battery_current
 float32 battery_remaining # percentage 0..1
 
 # Gimbal position
-Gimbal gimbal
+brain_box_msgs/Gimbal gimbal

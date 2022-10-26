@@ -1,224 +1,215 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(brain_box_msgs)
 
-find_package(catkin REQUIRED COMPONENTS
-  message_generation
-  geometry_msgs
-  nav_msgs
-  uuid_msgs
-  genmsg
-  actionlib_msgs
-  actionlib
-  std_msgs
-  sensor_msgs
-  shape_msgs)
-
-###################################
-## catkin specific configuration ##
-###################################
-add_message_files( 
-	DIRECTORY msg
-	FILES
-	AMMap.msg 
-	BabySitterStatus.msg
-	BBAttitude.msg 
-	BBGlobalPosition.msg 
-	BBLatency.msg 
-	BBVxCommand.msg
-	BeaconRangeMsg.msg
-	BlinkMCommand.msg
-	BoundingBox.msg
-	BoundingBoxes.msg
-	C2Status.msg
-	CeilingHist.msg
-	CeilingPC2.msg
-	CeilingStatus.msg
-	Collision.msg
-	CollisionView.msg
-	CollisionViews.msg
-	CommsStatus.msg
-	ControllerState.msg
-	ControlVariables.msg
-	CorrFrontHist.msg
-	CorrSidesHist.msg
-	CorrSidesYawList.msg
-	CorrStatus.msg
-	CRUD.msg
-	DelayStats.msg
-	DepthCmnd.msg
-	DepthStatus.msg
-	EdgeHist.msg
-	EdgeStatus.msg
-	FeatureStatus.msg
-	FeatureStatusList.msg
-	FeatureStatusPose.msg
-	FlightSegment.msg
-	FlightSegments.msg
-	FlightSegmentStatus.msg
-	Float32ArrayStamped.msg
-	FTPCmnd.msg
-	FTPStatus.msg
-	Gimbal.msg
-	GimbalPose.msg
-	GISEntity.msg
-	GPSLocation.msg
-	GSAMStatus.msg
-	GSCommand.msg
-	GSHeader.msg
-	GSMSDKStatus.msg
-	GSPNStatus.msg
-	GuidanceStatus.msg
-	Int32Stamped.msg
-	Heartbeat.msg
-	KeyValue.msg
-	LidarStatus.msg 
-	LifeCycleState.msg 
-	LifeCycleCommand.msg 
-	Line.msg
-	LineP2P.msg
-	LaserCluster.msg
-	LaserClusters.msg
-	Latency_Image.msg
-	Latency_LaserScan.msg
-	Latency_Odometry.msg
-	Latency_PointCloud.msg
-	Latency_PointCloud2.msg
-	Latency_PoseStamped.msg
-	Latency_PoseWithCovarianceStamped.msg
-	Latency_TwistStamped.msg
-	Latency_TwistWithCovarianceStamped.msg
-	Latency.msg
-	LatencyHeader.msg
-	LocationCoord.msg
-	LocationSource.msg
-	LogControl.msg
-	MarkerConfig.msg
-	MarkerConfigFamily.msg
-	MarkDetectStatus.msg  
-	MarkerStatus.msg
-	MarkerType.msg
-	MaxMinAve.msg
-	NodeStatus.msg
-	NormalsStamped.msg
-	NormalWithPoint.msg
-	NormalsWithPointsStamped.msg
-	OdomLatency.msg
-	OperatorCommand.msg
-	OperatorMsg.msg
-	PassageFeature.msg
-	PassageFeatures.msg
-	PassageFeatureWindow.msg
-	PolarPointCloud.msg
-	PanelStatus.msg
-	PanelHist.msg
-	ProximityVector.msg
-	ProximityList.msg
-	PIDParam.msg
-	Point2.msg
-	Profiling.msg
-	ProfilingArray.msg
-	Range.msg
-	RangeBall.msg
-	RGB.msg
-	Row.msg
-	RowView.msg 
-	RPYMsgs.msg
-	Segment.msg
-	SegmentationIndicesStamped.msg
-	SegmentationStamped.msg
-	SegmentIndex.msg
-	SeqNo.msg
-	SPStatus.msg 
-	Status.msg 
-	SSStatus.msg 
-	SCStatus.msg 
-	StampedAltimeter.msg
-	StampedHeartBeat.msg
-	StampedInterruptTime.msg
-	StationStatus.msg
-	SuperNodeStatus.msg
-	SuperStatus.msg
-	Super2Status.msg
-	SystemReport.msg
-	SystemState.msg
-	TargetPose.msg 
-	TargetPoseArray.msg 
-	VideoCmnd.msg
-	VideoStatus.msg
-	VisionCmnd.msg
-	VisionStatus.msg  
-	VisLogStatus.msg  
-	VxFCUStatus.msg
-	VxFeaturePose.msg
-	VxFlightPlanCmd.msg
-	VxFlightPlanStatus.msg
-	VxKinematics.msg
-	VxManeuver.msg
-	VxMilestone.msg
-	VxMissionExecCmd.msg
-	VxMissionStatus.msg
-	VxProximity.msg
-	VxState.msg
-	VxTrajectory.msg
-	VxTrajectorySegment.msg
-	VxTrajectoryStatus.msg
-	VxYaw.msg
-	ZEDStatus.msg
-	)
-	
-add_service_files(
-	DIRECTORY srv
-	FILES
-	AMMapBoundingBoxQuery.srv
-	AttitudeControl.srv
-	CameraActionControl.srv
-	CameraSelect.srv
-	DroneTaskControl.srv
-	GetAMMap.srv
-	GimbalAngleControl.srv
-	GimbalSpeedControl.srv
-	GlobalPositionControl.srv
-	LocalPositionControl.srv
-	SDKPermissionControl.srv
-	SegmentSearch.srv
-	VelocityControl.srv
-	VxFlightPlan.srv
-	VxMissionExec.srv)
-	
-add_action_files(
-	DIRECTORY action
-	FILES
-	CheckForObjects.action
-	GlobalPositionNavigation.action
-	LocalPositionNavigation.action
-	WaypointNavigation.action
-	Launch.action
-	Land.action
-	RTL.action
-	VxFlightExec.action)
-
-generate_messages( DEPENDENCIES uuid_msgs std_msgs nav_msgs geometry_msgs actionlib_msgs sensor_msgs shape_msgs)
-
-set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
-
-catkin_package(
-
-  CATKIN_DEPENDS
-    message_runtime
-    geometry_msgs
-    nav_msgs
-    uuid_msgs
-    std_msgs
-    sensor_msgs
-	shape_msgs
-)
-
-#############
-## Install ##
-#############
-if (EXISTS include/${PROJECT_NAME})
-install(DIRECTORY include/${PROJECT_NAME}
- DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
+# Default to C99
+if(NOT CMAKE_C_STANDARD)
+  set(CMAKE_C_STANDARD 99)
 endif()
 
+# Default to C++14
+if(NOT CMAKE_CXX_STANDARD)
+  set(CMAKE_CXX_STANDARD 14)
+endif()
 
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED) #for message generation
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+
+	#messages
+	msg/AMMap.msg 
+	msg/BabySitterStatus.msg
+	msg/BBAttitude.msg 
+	msg/BBGlobalPosition.msg
+	msg/BBLatency.msg 
+	msg/BBVxCommand.msg
+	msg/BeaconRangeMsg.msg
+	msg/BlinkMCommand.msg
+	msg/BoundingBox.msg
+	msg/BoundingBoxes.msg
+	msg/C2Status.msg
+	msg/CeilingHist.msg
+	msg/CeilingPC2.msg
+	msg/CeilingStatus.msg
+	msg/Collision.msg
+	msg/CollisionView.msg
+	msg/CollisionViews.msg
+	msg/CommsStatus.msg
+	msg/ControllerState.msg
+	msg/ControlVariables.msg
+	msg/CorrFrontHist.msg
+	msg/CorrSidesHist.msg
+	msg/CorrSidesYawList.msg
+	msg/CorrStatus.msg
+	msg/CRUD.msg
+	msg/DelayStats.msg
+	msg/DepthCmnd.msg
+	msg/DepthStatus.msg
+	msg/EdgeHist.msg
+	msg/EdgeStatus.msg
+	msg/FeatureStatus.msg
+	msg/FeatureStatusList.msg
+	msg/FeatureStatusPose.msg
+	msg/FlightSegment.msg
+	msg/FlightSegments.msg
+	msg/FlightSegmentStatus.msg
+	msg/Float32ArrayStamped.msg
+	msg/FTPCmnd.msg
+	msg/FTPStatus.msg
+	msg/Gimbal.msg
+	msg/GimbalPose.msg
+	msg/GISEntity.msg
+	msg/GPSLocation.msg
+	msg/GSAMStatus.msg
+	msg/GSCommand.msg
+	msg/GSHeader.msg
+	msg/GSMSDKStatus.msg
+	msg/GSPNStatus.msg
+	msg/GuidanceStatus.msg
+	msg/Heartbeat.msg
+	msg/Int32Stamped.msg
+	msg/KeyValue.msg
+	msg/LaserCluster.msg
+	msg/LaserClusters.msg
+	msg/LatencyImage.msg
+	msg/LatencyLaserScan.msg
+	msg/LatencyOdometry.msg
+	msg/LatencyPointCloud.msg
+	msg/LatencyPointCloud2.msg
+	msg/LatencyPoseStamped.msg
+	msg/LatencyPoseWithCovarianceStamped.msg
+	msg/LatencyTwistStamped.msg
+	msg/LatencyTwistWithCovarianceStamped.msg
+	msg/Latency.msg
+	msg/LatencyHeader.msg
+	msg/LidarStatus.msg 
+	msg/LifeCycleState.msg 
+	msg/LifeCycleCommand.msg 
+	msg/Line.msg
+	msg/LineP2P.msg
+	msg/LocationCoord.msg
+	msg/LocationSource.msg
+	msg/LogControl.msg
+	msg/MarkerConfig.msg
+	msg/MarkerConfigFamily.msg
+	msg/MarkDetectStatus.msg  
+	msg/MarkerStatus.msg
+	msg/MarkerType.msg
+	msg/MaxMinAve.msg
+	msg/NodeStatus.msg
+	msg/NormalsStamped.msg
+	msg/NormalWithPoint.msg
+	msg/NormalsWithPointsStamped.msg
+	msg/OdomLatency.msg
+	msg/OperatorCommand.msg
+	msg/OperatorMsg.msg
+	msg/PassageFeature.msg
+	msg/PassageFeatures.msg
+	msg/PassageFeatureWindow.msg
+	msg/PolarPointCloud.msg
+	msg/PanelStatus.msg
+	msg/PanelHist.msg
+	msg/ProximityVector.msg
+	msg/ProximityList.msg
+	msg/PIDParam.msg
+	msg/Point2.msg
+	msg/Profiling.msg
+	msg/ProfilingArray.msg
+	msg/Range.msg
+	msg/RangeBall.msg
+	msg/RGB.msg
+	msg/Row.msg
+	msg/RowView.msg 
+	msg/RPYMsgs.msg
+	msg/Segment.msg
+	msg/SegmentationIndicesStamped.msg
+	msg/SegmentationStamped.msg
+	msg/SegmentIndex.msg
+	msg/SeqNo.msg
+	msg/SPStatus.msg 
+	msg/Status.msg 
+	msg/SSStatus.msg 
+	msg/SCStatus.msg 
+	msg/StampedAltimeter.msg
+	msg/StampedHeartBeat.msg
+	msg/StampedInterruptTime.msg
+	msg/StationStatus.msg
+	msg/SuperNodeStatus.msg
+	msg/SuperStatus.msg
+	msg/Super2Status.msg
+	msg/SystemReport.msg
+	msg/SystemState.msg
+	msg/TargetPose.msg 
+	msg/TargetPoseArray.msg 
+	msg/VideoCmnd.msg
+	msg/VideoStatus.msg
+	msg/VisionCmnd.msg
+	msg/VisionStatus.msg  
+	msg/VisLogStatus.msg  
+	msg/VxFCUStatus.msg
+	msg/VxFeaturePose.msg
+	msg/VxFlightPlanCmd.msg
+	msg/VxFlightPlanStatus.msg
+	msg/VxKinematics.msg
+	msg/VxManeuver.msg
+	msg/VxMilestone.msg
+	msg/VxMissionExecCmd.msg
+	msg/VxMissionStatus.msg
+	msg/VxProximity.msg
+	msg/VxState.msg
+	msg/VxTrajectory.msg
+	msg/VxTrajectorySegment.msg
+	msg/VxTrajectoryStatus.msg
+	msg/VxYaw.msg
+	msg/ZEDStatus.msg
+	
+	#services
+	srv/AMMapBoundingBoxQuery.srv
+	srv/AttitudeControl.srv
+	srv/CameraActionControl.srv
+	srv/CameraSelect.srv
+	srv/DroneTaskControl.srv
+	srv/GetAMMap.srv
+	srv/GimbalAngleControl.srv
+	srv/GimbalSpeedControl.srv
+	srv/GlobalPositionControl.srv
+	srv/LocalPositionControl.srv
+	srv/SDKPermissionControl.srv
+	srv/SegmentSearch.srv
+	srv/VelocityControl.srv
+	srv/VxFlightPlan.srv
+	srv/VxMissionExec.srv
+	
+	#actions
+	action/CheckForObjects.action
+	action/GlobalPositionNavigation.action
+	action/LocalPositionNavigation.action
+	action/WaypointNavigation.action
+	action/Launch.action
+	action/Land.action
+	action/RTL.action
+	action/VxFlightExec.action
+	
+	
+	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
+ )
+ 
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # uncomment the line when a copyright and license is not present in all source files
+  #set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # uncomment the line when this package is not in a git repo
+  #set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()

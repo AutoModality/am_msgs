@@ -10,8 +10,8 @@ uint8 FOR_TARGET=0
 uint8 FOR_GLOBAL=1
 uint8 FOR_VEHICLE=2
 
-Header header
+std_msgs/Header header
 uint8 command
 string target_id
 uint8 frame_of_reference
-VxKinematics kinematics
+brain_box_msgs/VxKinematics kinematics

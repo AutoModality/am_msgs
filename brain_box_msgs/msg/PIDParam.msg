@@ -5,23 +5,23 @@ string controller
 uint8 axis
 
 #default 1.5
-float32 P
+float32 pid_p
 #default 0.2
-float32 I
+float32 pid_i
 #default 0.25
-float32 D
+float32 pid_d
 
 #default 0.03
-float32 iMax
+float32 i_max
 #default 0.0
-float32 iMin
+float32 i_min
 
 #default 5.0
-float32 maxError
+float32 max_error
 #default 2.0
-float32 maxSetpoint
+float32 max_set_point
 #default -2.0
-float32 minSetpoint
+float32 min_set_point
 
 #default 1.0
 float32 land_error

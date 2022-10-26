@@ -12,7 +12,7 @@ uint8 MANUAL=10
 uint8 SHUTDOWN=11
 uint8 LAST_STATE=11
 
-Header header
+std_msgs/Header header
 uint8 state
 float64 gps_latitude
 float64 gps_longitude

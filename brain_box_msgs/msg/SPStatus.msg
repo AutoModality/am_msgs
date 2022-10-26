@@ -7,8 +7,8 @@ uint8 STATE_TRAJECTORY=5
 uint8 STATE_RTL=6
 uint8 STATE_WAYPOINT=7
 
-Header header
-Status status
+std_msgs/Header header
+brain_box_msgs/Status status
 uint8 state
 uint16 watchdog_timeouts
 string target_id

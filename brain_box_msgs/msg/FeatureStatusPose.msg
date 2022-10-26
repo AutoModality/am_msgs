@@ -1,2 +1,2 @@
-FeatureStatus feature_status
+brain_box_msgs/FeatureStatus feature_status
 geometry_msgs/Pose feature_pose

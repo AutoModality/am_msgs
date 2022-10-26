@@ -1,5 +1,5 @@
 # A 3D AM occupancy map in binary format
-Header header
+std_msgs/Header header
 
 # Resolution (in m) of the smallest octree nodes
 float64 resolution

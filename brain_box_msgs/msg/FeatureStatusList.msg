@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 # list of features and their status
-FeatureStatus[] features
+brain_box_msgs/FeatureStatus[] features

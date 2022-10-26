@@ -12,8 +12,8 @@
 # id
 
 std_msgs/Header header
-geometry_msgs/Point beaconPosition
-std_msgs/Bool isLos
+geometry_msgs/Point beacon_position
+std_msgs/Bool is_los
 std_msgs/Float32 range
 std_msgs/Float32 std
 std_msgs/Float32 bias

@@ -4,7 +4,7 @@
 string id
 
 # CRUD operation
-CRUD operation
+brain_box_msgs/CRUD operation
 
 # Milestones
-VxMilestone[] milestones
+brain_box_msgs/VxMilestone[] milestones

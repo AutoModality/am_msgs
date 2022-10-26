@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 float64 max_cluster_distance
 int32 min_cluster_size
-LaserCluster[] clusters
+brain_box_msgs/LaserCluster[] clusters

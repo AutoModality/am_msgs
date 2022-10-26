@@ -1,6 +1,6 @@
 # used to send human readable messages to the operator
 
-Header header
+std_msgs/Header header
 
 # types of messages
 # If you make changes to these then also change operator_msg_type.h

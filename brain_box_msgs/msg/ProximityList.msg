@@ -1,2 +1,2 @@
 # A simple list of proximity vectors
-ProximityVector[] vectors
+brain_box_msgs/ProximityVector[] vectors

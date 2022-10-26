@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 float32 resolution_m
 float32 min_x_m
 float32 max_x_m

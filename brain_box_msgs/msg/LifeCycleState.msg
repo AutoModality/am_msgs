@@ -16,7 +16,7 @@ uint8 STATUS_WARN=1				# running on edge of specifications, output is suspect
 uint8 STATUS_ERROR=2			# running well out of specificaiton, output can't be trusted
 uint8 STATUS_LAST=2
 
-Header header					# frame_id field is irrelevant
+std_msgs/Header header					# frame_id field is irrelevant
 string node_name				# node name
 int32 process_id				# node process id
 uint8 state						# current state

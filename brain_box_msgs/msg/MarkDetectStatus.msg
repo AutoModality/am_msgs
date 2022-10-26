@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 Status status
 uint16 fps_ave
 uint16 fps_min
@@ -9,5 +9,5 @@ uint16 latency_max_ms
 uint16 native_image_width
 uint16 native_image_height
 uint16 skip_frames
-MarkerStatus[] marker_statuses
+brain_box_msgs/MarkerStatus[] marker_statuses
 uint8 num_detected_tags

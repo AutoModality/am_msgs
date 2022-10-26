@@ -1,6 +1,5 @@
 # Collection of collisions views
 # The frame in the header should be body_FLU
-Header header
+std_msgs/Header header
 
-CollisionView[] views
-
+brain_box_msgs/CollisionView[] views

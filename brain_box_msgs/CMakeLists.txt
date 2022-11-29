@@ -20,6 +20,9 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED) #for message generation
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(shape_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
 
@@ -198,7 +201,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	action/VxFlightExec.action
 	
 	
-	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs
+	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs shape_msgs
  )
  
 if(BUILD_TESTING)

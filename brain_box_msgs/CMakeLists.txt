@@ -23,6 +23,8 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
+find_package(vision_msgs REQUIRED)
+
 
 rosidl_generate_interfaces(${PROJECT_NAME}
 
@@ -141,6 +143,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/SSStatus.msg 
 	msg/SCStatus.msg 
 	msg/StampedAltimeter.msg
+	msg/SpatialDetection.msg
+	msg/SpatialDetectionArray.msg
 	msg/StampedHeartBeat.msg
 	msg/StampedInterruptTime.msg
 	msg/StationStatus.msg
@@ -201,7 +205,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	action/VxFlightExec.action
 	
 	
-	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs shape_msgs
+	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs shape_msgs vision_msgs
  )
  
 if(BUILD_TESTING)

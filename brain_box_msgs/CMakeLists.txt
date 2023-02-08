@@ -115,6 +115,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/OdomLatency.msg
 	msg/OperatorCommand.msg
 	msg/OperatorMsg.msg
+	msg/PacketMsg.msg
 	msg/PassageFeature.msg
 	msg/PassageFeatures.msg
 	msg/PassageFeatureWindow.msg

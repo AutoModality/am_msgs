@@ -112,6 +112,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/NormalsStamped.msg
 	msg/NormalWithPoint.msg
 	msg/NormalsWithPointsStamped.msg
+	msg/ObjectCount.msg
 	msg/OdomLatency.msg
 	msg/OperatorCommand.msg
 	msg/OperatorMsg.msg

@@ -199,7 +199,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	action/Land.action
 	action/RTL.action
 	action/VxFlightExec.action
-	
+	action/Fibonacci.action
 	
 	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs shape_msgs
  )

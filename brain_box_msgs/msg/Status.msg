@@ -9,4 +9,4 @@ uint8 SUMMARY_YELLOW=2
 uint8 SUMMARY_RED=3
 
 uint8 summary
-time last_contact
+builtin_interfaces/Time last_contact

@@ -1,5 +1,5 @@
 # Status of currently executing mission
-Header header
+std_msgs/Header header
 
 # ID of currently executing mission
 string id
@@ -16,6 +16,6 @@ uint8 status		# one of the above
 
 uint8 error			# zero if no error, else error code
 
-VxFlightPlanStatus cmd_current	# currently executing command
+brain_box_msgs/VxFlightPlanStatus cmd_current	# currently executing command
 
 float64 duration	# duration of currently executing mission

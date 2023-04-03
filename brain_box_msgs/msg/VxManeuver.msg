@@ -3,7 +3,7 @@
 # Typical message header. 
 # Note that the frame should be the same as the frame of the feature id as defined below
 #
-Header header
+std_msgs/Header header
 
 # if the following flag is false then this maneuver is invalid
 #
@@ -41,7 +41,7 @@ float64 flight_time
 # If traversal_yaw.type == FIXED then the angle is wrt to the ENU frame
 # If traversal_yaw.type == RELATIVE then the angle is wrt to the feature in ground plane.
 #
-VxYaw traversal_yaw
+brain_box_msgs/VxYaw traversal_yaw
 
 # coordinate milestone of the maneuver
 #

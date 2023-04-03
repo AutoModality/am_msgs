@@ -1,4 +1,4 @@
-MarkerType type
+brain_box_msgs/MarkerType type
 string family_name
 float32 marker_size_m
 uint16 image_pixels_k

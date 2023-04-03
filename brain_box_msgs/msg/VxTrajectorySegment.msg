@@ -4,7 +4,7 @@
 # Note that the frame in the flight segment is not relevant. The frames are associated with
 # Specific maneuvers
 #
-Header header
+std_msgs/Header header
 
 # identifier for this segment
 #
@@ -24,10 +24,10 @@ float32 feature_hover_time
 # The maneuver associated with a fearture. Note that the maneuver may not
 # be valid meaning that there is no feature maneuver associated with this segment
 #
-VxManeuver feature_maneuver
+brain_box_msgs/VxManeuver feature_maneuver
 
 # The default maneuver to be done if either there is no valid feature maneuver or
 # the features associated with that maneuver are not valid
 #
-VxManeuver default_maneuver
+brain_box_msgs/VxManeuver default_maneuver
 

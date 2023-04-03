@@ -1,5 +1,5 @@
 # Status of currently executing flight plan
-Header header
+std_msgs/Header header
 
 # ID of currently executing flight plan
 string id
@@ -16,7 +16,7 @@ uint8 status		# one of the above
 
 uint16 cmd_index	# currently executing command index
 
-VxFlightPlanCmd cmd_current	# currently executing command
+brain_box_msgs/VxFlightPlanCmd cmd_current	# currently executing command
 
 float64 cmd_duration	# duration in S of currently executing command in sec
 

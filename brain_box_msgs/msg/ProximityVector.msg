@@ -5,7 +5,7 @@
 
 # Normal header information.
 # Note that the frame is typically Body_FLU, but in theory could be any frame of reference
-Header header
+std_msgs/Header header
 
 # Simple id string used to correlate requests for proximity info with the reporting of the proximity info
 string id
@@ -14,13 +14,13 @@ string id
 float32 distance
 
 # yaw_angle of the proximity vector in the frame of reference specified in radians
-float32 yaw_angle_R
+float32 yaw_angle_r
 
 # pitch angle of the proximity vector in the frame of reference specified in radians
-float32 pitch_angle_R
+float32 pitch_angle_r
 
 # Span of the region for the perception system to search for proximities in the yaw direction in radians
-float32 yaw_span_R
+float32 yaw_span_r
 
 # Span of the region for the perception system to search for proximities in the pitch direction in radians
-float32 pitch_span_R
+float32 pitch_span_r

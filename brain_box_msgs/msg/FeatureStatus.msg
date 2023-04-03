@@ -2,7 +2,7 @@
 string feature_id
 
 # last time the feature was perceived
-time last_contact
+builtin_interfaces/Time last_contact
 
 # whether the feature is considered to be in view
 bool in_view

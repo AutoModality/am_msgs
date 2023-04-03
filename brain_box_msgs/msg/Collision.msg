@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 float32 down_m
 float32 front_m
 float32 right_m
@@ -6,10 +6,10 @@ float32 back_m
 float32 left_m
 float32 up_m
 float32[3] motion_m
-uint8   downHealth
-uint8   frontHealth
-uint8   rightHealth
-uint8   backHealth
-uint8   leftHealth
-uint8   upHealth
-uint8   motionHealth
+uint8   down_health
+uint8   front_health
+uint8   right_health
+uint8   back_health
+uint8   left_health
+uint8   up_health
+uint8   motion_health

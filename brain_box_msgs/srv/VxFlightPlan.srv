@@ -9,10 +9,10 @@
 # key="FP_LOAD_PX4_FILE value="file name"  load PX4 flight plan from file
 # key="FP_DELETE" value="id" delete flight plan with id
 
-KeyValue command
+brain_box_msgs/KeyValue command
 
 # Actual flight plan to load if the command above is LOAD_FLIGHT_PLAN
-VxFlightPlanCmd[] msg
+brain_box_msgs/VxFlightPlanCmd[] msg
 ---
 # repsonse
 # SUCCESS or error message if not

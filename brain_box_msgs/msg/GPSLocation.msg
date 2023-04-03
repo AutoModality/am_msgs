@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 int32 ts
 #latitude is in angle
 float64 latitude
@@ -8,4 +8,3 @@ float32 altitude
 float32 height
 #reliablity [0,5]
 int8 health 
-

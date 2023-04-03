@@ -1,4 +1,4 @@
 # Stamped altimeter reading from LW20
 
-Header header
+std_msgs/Header header
 float32 data

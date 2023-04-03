@@ -1,5 +1,5 @@
-Header header
-Status status
+std_msgs/Header header
+brain_box_msgs/Status status
 uint16 fps
 uint16 loop_ave_ms
 uint16 loop_min_ms

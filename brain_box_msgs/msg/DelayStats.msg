@@ -1,5 +1,5 @@
-Header header
-duration duration
+std_msgs/Header header
+builtin_interfaces/Duration duration
 string node_name
 int64 count
 float64 mean_delay

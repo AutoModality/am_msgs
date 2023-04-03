@@ -1,2 +1,2 @@
 # see VxMissionExec.srv for command keys
-KeyValue command
+brain_box_msgs/KeyValue command

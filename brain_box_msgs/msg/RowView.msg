@@ -1,4 +1,4 @@
 # Collection of Rows
-Header header
+std_msgs/Header header
 #index left to right
-Row[] rows
+brain_box_msgs/Row[] rows

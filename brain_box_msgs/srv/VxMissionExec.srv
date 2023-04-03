@@ -16,7 +16,7 @@
 # mission. 
 # See mission.yaml to see how to configure the mission directory.
 
-KeyValue command
+brain_box_msgs/KeyValue command
 
 ---
 # repsonse

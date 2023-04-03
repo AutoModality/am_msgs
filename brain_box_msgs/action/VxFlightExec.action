@@ -8,7 +8,7 @@
 # key="FP_ABORT" value=""  			abort currently executing flight plan
 # key="FP_PAUSE" value=""			pause currently executing flight plan  
 
-KeyValue command
+brain_box_msgs/KeyValue command
 
 ---
 # result
@@ -17,4 +17,4 @@ string result
 
 ---
 #feedback
-VxFlightPlanStatus status
+brain_box_msgs/VxFlightPlanStatus status

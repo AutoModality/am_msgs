@@ -1,8 +1,8 @@
-Header header
+std_msgs/Header header
 
-Status super_status
+brain_box_msgs/Status super_status
 
-Status[] nodes_status
+brain_box_msgs/Status[] nodes_status
 
 float32 cpu_percent_total
 float32[] cpu_percent_cores

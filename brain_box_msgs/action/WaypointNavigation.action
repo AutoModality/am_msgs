@@ -1,5 +1,5 @@
 # Milestones
-VxTrajectory trajectory
+brain_box_msgs/VxTrajectory trajectory
 ---
 bool result
 ---

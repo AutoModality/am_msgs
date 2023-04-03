@@ -1,17 +1,17 @@
-Header header
-Status status
+std_msgs/Header header
+brain_box_msgs/Status status
 
 uint16 ss_top_fps
-MaxMinAve ss_top_process_time_ms
-MaxMinAve ss_top_latency_ms
+brain_box_msgs/MaxMinAve ss_top_process_time_ms
+brain_box_msgs/MaxMinAve ss_top_latency_ms
 
 uint16 ss_front_fps
-MaxMinAve ss_front_process_time_ms
-MaxMinAve ss_front_latency_ms
+brain_box_msgs/MaxMinAve ss_front_process_time_ms
+brain_box_msgs/MaxMinAve ss_front_latency_ms
 
 uint16 lidar_fps
-MaxMinAve lidar_process_time_ms
-MaxMinAve lidar_latency_ms
+brain_box_msgs/MaxMinAve lidar_process_time_ms
+brain_box_msgs/MaxMinAve lidar_latency_ms
 
 float32 lidar_weight
 bool disabled

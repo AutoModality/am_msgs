@@ -1,3 +1,3 @@
-MarkerType type
+brain_box_msgs/MarkerType type
 uint16 image_pixels_k
-MarkerConfigFamily[] families
+brain_box_msgs/MarkerConfigFamily[] families

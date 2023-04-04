@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 # feature id for the X dimension
 string x_id

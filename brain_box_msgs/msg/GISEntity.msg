@@ -10,4 +10,4 @@ uint8 type
 string id
 
 # vertices of the GIS entity
-LocationCoord[] points
+brain_box_msgs/LocationCoord[] points

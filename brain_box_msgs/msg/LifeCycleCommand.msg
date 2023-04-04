@@ -7,6 +7,6 @@ uint8 COMMAND_SHUTDOWN=5		# load configuration and setup
 uint8 COMMAND_DESTROY=6			# return to original startup state
 uint8 COMMAND_LAST=6
 
-Header header					# frame_id field is irrelevant
+std_msgs/Header header					# frame_id field is irrelevant
 string node_name				# node name
 uint8 command					# lifecycle command

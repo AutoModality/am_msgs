@@ -1,4 +1,4 @@
-string Class
+string class_name
 string camera
 int64 img_width
 int64 img_height

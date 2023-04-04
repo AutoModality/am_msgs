@@ -1,7 +1,7 @@
 # Pose wrt the feature
 
 # The frame in this header should be tha same as the feature frame
-Header header
+std_msgs/Header header
 
 # Feature id
 #

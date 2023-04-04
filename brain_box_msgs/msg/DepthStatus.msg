@@ -1,7 +1,7 @@
-Header header
+std_msgs/Header header
 bool simulation
 bool enabled
-Status status
+brain_box_msgs/Status status
 float32 odometry_z_m
 float32 agl_m
-GuidanceStatus[5] guidance_statuses
+brain_box_msgs/GuidanceStatus[5] guidance_statuses

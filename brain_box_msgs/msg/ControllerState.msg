@@ -3,6 +3,6 @@
 # Commands generalized from to VxFCUStatus.msg
 uint8 COMPLETED=0			    # The robot has completed the session and the controller is going inactive
 
-Header header					# frame_id field is irrelevant
+std_msgs/Header header					# frame_id field is irrelevant
 string node_name				# node acting as the controller
 uint8 state					# One of the enumerated states above

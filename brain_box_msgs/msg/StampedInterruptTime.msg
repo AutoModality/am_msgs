@@ -1,5 +1,5 @@
 # Stamped externel interrupt time
 
-Header header
+std_msgs/Header header
 float64 data
 int32 count

@@ -10,6 +10,6 @@ uint8 LANDED=7		# mission complete (not necessarily a success) and ready to ARM 
 uint8 ABORT=8		# operator signals to stop mission, but not yet in manual control
 uint8 SHUTDOWN=9	# stopping the system completely
 
-Header header					# frame_id field is irrelevant
+std_msgs/Header header					# frame_id field is irrelevant
 string node_name				# node sending the commands for the operator
 uint8 command					# One of the enumerated commands above

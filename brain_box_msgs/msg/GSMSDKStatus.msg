@@ -1,3 +1,3 @@
-Header header
-GSHeader gs_header
+std_msgs/Header header
+brain_box_msgs/GSHeader gs_header
 bool compass_error

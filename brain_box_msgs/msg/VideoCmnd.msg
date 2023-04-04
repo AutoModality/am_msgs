@@ -5,6 +5,6 @@ uint8 COMMAND_STREAM_VIDEO_STOP=3
 uint8 COMMAND_RECORD_VIDEO_START=5
 uint8 COMMAND_RECORD_VIDEO_STOP=6
 
-Header header
+std_msgs/Header header
 uint8 command
 int32 int_param1

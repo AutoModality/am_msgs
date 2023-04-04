@@ -19,4 +19,4 @@ uint8 command
 string object_id
 
 # amount of time to wait in sec before executing the command
-duration wait_time
+builtin_interfaces/Duration wait_time

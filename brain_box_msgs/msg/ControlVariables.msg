@@ -72,4 +72,20 @@ bool feature_end
 uint8 flight_status
 uint8 control_status
 
+# turn stuff
+float64 turn_start_angle
+float64 turn_end_angle
+float64[3] turn_center
+float64 turn_radius
+float64 turn_total_arc_length
+bool turn_cw
+float64 turn_current_angle
+float64 turn_delta_angle
+float64 turn_dest_arc_length
+float64[3] turn_tangent_vector
+float64[3] turn_center_vector
+float64 turn_center_dist
+float64 turn_center_error
+
+
 

@@ -61,6 +61,7 @@ add_message_files(
 	Gimbal.msg
 	GimbalPose.msg
 	GISEntity.msg
+	GPSAsset.msg
 	GPSLocation.msg
 	GSAMStatus.msg
 	GSCommand.msg

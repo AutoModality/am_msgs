@@ -69,6 +69,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/Gimbal.msg
 	msg/GimbalPose.msg
 	msg/GISEntity.msg
+	msg/GPSAsset.msg
 	msg/GPSLocation.msg
 	msg/GSAMStatus.msg
 	msg/GSCommand.msg

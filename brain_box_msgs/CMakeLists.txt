@@ -29,7 +29,9 @@ find_package(vision_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
 
 	#messages
-	msg/AMMap.msg 
+	msg/AMMap.msg
+	msg/AprilTagDetection.msg
+	msg/AprilTagDetectionArray.msg
 	msg/BabySitterStatus.msg
 	msg/BBAttitude.msg 
 	msg/BBGlobalPosition.msg

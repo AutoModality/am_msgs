@@ -7,6 +7,9 @@ int32[] id
 # order as the IDs above.
 float64[] size
 
+# Added by Farmx. This will help search faster in the bundle
+string name
+
 # Pose in the camera frame, obtained from homography transform. If a standalone
 # tag, the homography is from the four tag corners. If a tag bundle, the
 # homography is from at least the four corners of one member tag and at most the

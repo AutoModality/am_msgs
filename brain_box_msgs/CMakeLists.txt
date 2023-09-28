@@ -157,6 +157,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/SuperStatus.msg
 	msg/Super2Status.msg
 	msg/SystemReport.msg
+	msg/SystemAction.msg
 	msg/SystemState.msg
 	msg/TargetPose.msg 
 	msg/TargetPoseArray.msg 

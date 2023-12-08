@@ -67,6 +67,8 @@ float64 yaw_cmd
 bool vel_ground_ref
 bool yaw_absolute
 
+bool pto_request_on
+
 bool feature_end
 
 uint8 flight_status

@@ -68,6 +68,7 @@ bool vel_ground_ref
 bool yaw_absolute
 
 bool pto_request_on
+bool hitch_request_raise
 
 bool feature_end
 

@@ -9,3 +9,4 @@ uint8 READY=0
 uint8 PAYLOAD_CONTROL=1
 uint8 AUTO=2
 uint8 DONE=3
+uint8 LAST_STATE=3

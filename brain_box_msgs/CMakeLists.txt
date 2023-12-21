@@ -30,6 +30,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
 	#messages
 	msg/AMMap.msg
+	msg/AmPilotMissionState.msg
 	msg/AprilTagDetection.msg
 	msg/AprilTagDetectionArray.msg
 	msg/BabySitterStatus.msg

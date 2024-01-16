@@ -111,6 +111,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/MarkerStatus.msg
 	msg/MarkerType.msg
 	msg/MaxMinAve.msg
+	msg/MissionIdArray.msg
 	msg/NodeStatus.msg
 	msg/NormalsStamped.msg
 	msg/NormalWithPoint.msg

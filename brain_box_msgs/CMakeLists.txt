@@ -124,6 +124,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/PacketMsg.msg
 	msg/PassageFeature.msg
 	msg/PassageFeatures.msg
+	msg/PassageFeaturesArray.msg
 	msg/PassageFeatureWindow.msg
 	msg/PolarPointCloud.msg
 	msg/PanelStatus.msg

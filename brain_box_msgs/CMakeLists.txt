@@ -24,6 +24,7 @@ find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(shape_msgs REQUIRED)
 find_package(vision_msgs REQUIRED)
+find_package(rcl_interfaces REQUIRED)
 
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -122,6 +123,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/OperatorCommand.msg
 	msg/OperatorMsg.msg
 	msg/PacketMsg.msg
+	msg/Parameter.msg
+	msg/ParameterArray.msg
 	msg/PassageFeature.msg
 	msg/PassageFeatures.msg
 	msg/PassageFeaturesArray.msg
@@ -214,7 +217,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	action/VxFlightExec.action
 	action/Fibonacci.action
 	
-	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs shape_msgs vision_msgs
+	DEPENDENCIES builtin_interfaces std_msgs geometry_msgs sensor_msgs nav_msgs shape_msgs vision_msgs rcl_interfaces
  )
  
 if(BUILD_TESTING)

@@ -188,6 +188,30 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/VxYaw.msg
 	msg/ZEDStatus.msg
 	
+	#psdk msg
+	"msg/DisplayMode.msg"
+	"msg/FlightAnomaly.msg"
+	"msg/GimbalStatus.msg"
+	"msg/HomePosition.msg"
+	"msg/PositionFused.msg"
+	"msg/GPSDetails.msg"
+	"msg/RelativeObstacleInfo.msg"
+	"msg/SDKCtrlInfo.msg"
+	"msg/GimbalRotation.msg"
+	"msg/RTKYaw.msg"
+	"msg/FlightStatus.msg"
+	"msg/RCConnectionStatus.msg"
+	"msg/ControlMode.msg"
+	"msg/HmsInfoMsg.msg"
+	"msg/HmsInfoTable.msg"
+	"msg/SingleBatteryInfo.msg"
+	"msg/EscData.msg"
+	"msg/EscStatusIndividual.msg"
+	"msg/FileInfo.msg"
+	"msg/SubFileInfo.msg"
+	"msg/FileAttributes.msg"
+	"msg/PerceptionCameraParameters.msg"
+
 	#services
 	srv/AMMapBoundingBoxQuery.srv
 	srv/AnalyzeSingleImage.srv
@@ -205,6 +229,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	srv/VelocityControl.srv
 	srv/VxFlightPlan.srv
 	srv/VxMissionExec.srv
+
+	#psdk services
+	"srv/CameraGetFileListInfo.srv"
 	
 	#actions
 	action/CheckForObjects.action

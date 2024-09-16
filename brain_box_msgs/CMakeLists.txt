@@ -136,6 +136,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/ProximityList.msg
 	msg/PIDParam.msg
 	msg/Point2.msg
+  msg/PostFeature.msg
+  msg/PostFeatureArray.msg
 	msg/Profiling.msg
 	msg/ProfilingArray.msg
 	msg/Range.msg

@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/AmPilotMissionState.msg
 	msg/AprilTagDetection.msg
 	msg/AprilTagDetectionArray.msg
+	msg/AutosteerMotorReport.msg
 	msg/BabySitterStatus.msg
 	msg/BBAttitude.msg 
 	msg/BBGlobalPosition.msg

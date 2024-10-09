@@ -193,6 +193,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	
 	#services
 	srv/AMMapBoundingBoxQuery.srv
+	srv/AutosteerMotorStatusQuery.srv
 	srv/AnalyzeSingleImage.srv
 	srv/AttitudeControl.srv
 	srv/CameraActionControl.srv

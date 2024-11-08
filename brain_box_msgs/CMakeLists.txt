@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/AmPilotMissionState.msg
 	msg/AprilTagDetection.msg
 	msg/AprilTagDetectionArray.msg
+	msg/AutosteerMotorReport.msg
 	msg/BabySitterStatus.msg
 	msg/BBAttitude.msg 
 	msg/BBGlobalPosition.msg
@@ -164,6 +165,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/SuperNodeStatus.msg
 	msg/SuperStatus.msg
 	msg/Super2Status.msg
+	msg/Super2ErrorNodes.msg
 	msg/SystemReport.msg
 	msg/SystemState.msg
 	msg/TargetPose.msg 
@@ -192,6 +194,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	
 	#services
 	srv/AMMapBoundingBoxQuery.srv
+	srv/AutosteerMotorStatusQuery.srv
 	srv/AnalyzeSingleImage.srv
 	srv/AttitudeControl.srv
 	srv/CameraActionControl.srv

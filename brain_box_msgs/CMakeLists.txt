@@ -86,6 +86,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/GuidanceStatus.msg
 	msg/Heartbeat.msg
 	msg/Int32Stamped.msg
+	msg/IPSensorStatus.msg
 	msg/KeyValue.msg
 	msg/LaserCluster.msg
 	msg/LaserClusters.msg
@@ -137,8 +138,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/ProximityList.msg
 	msg/PIDParam.msg
 	msg/Point2.msg
-  msg/PostFeature.msg
-  msg/PostFeatureArray.msg
+  	msg/PostFeature.msg
+  	msg/PostFeatureArray.msg
 	msg/Profiling.msg
 	msg/ProfilingArray.msg
 	msg/Range.msg
@@ -169,7 +170,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/SystemReport.msg
 	msg/SystemState.msg
 	msg/TargetPose.msg 
-	msg/TargetPoseArray.msg 
+	msg/TargetPoseArray.msg
+	msg/TransformStatus.msg
 	msg/VideoCmnd.msg
 	msg/VideoStatus.msg
 	msg/VisionCmnd.msg

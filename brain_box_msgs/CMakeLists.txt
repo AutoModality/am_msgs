@@ -192,6 +192,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/VxTrajectorySegment.msg
 	msg/VxTrajectoryStatus.msg
 	msg/VxYaw.msg
+	msg/WorldFeature.msg
+	msg/WorldFeatures.msg
 	msg/ZEDStatus.msg
 	
 	#services

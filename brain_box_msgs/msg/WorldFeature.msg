@@ -1,0 +1,4 @@
+string feature_type
+string feature_id
+geometry_msgs/Vector3 deimension
+geometry_msgs/Transform asset_frame_tf

@@ -1,0 +1,9 @@
+uint8 ACTION_UPDATE=0
+uint8 ACTION_ADD=1
+uint8 ACTION_REMOVE=2
+
+uint8 action
+brain_box_msgs/WorldFeature feature
+
+---
+bool success

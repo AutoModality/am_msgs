@@ -214,6 +214,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	srv/VelocityControl.srv
 	srv/VxFlightPlan.srv
 	srv/VxMissionExec.srv
+	srv/WorldFeatures.srv
+	srv/WorldFeatureUpdate.srv
 	
 	#actions
 	action/CheckForObjects.action

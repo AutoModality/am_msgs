@@ -1,0 +1,15 @@
+uint8 FEATURE_TYPE_ALL=0
+uint8 FEATURE_TYPE_ROW=1
+uint8 FEATURE_TYPE_MIDROW=2
+uint8 FEATURE_TYPE_TREE=3
+uint8 FEATURE_TYPE_VINE=4
+uint8 FEATURE_TYPE_HEADLAND=5
+uint8 FEATURE_TYPE_BEAM=6
+uint8 FEATURE_TYPE_PANEL=7
+
+uint8 feature_type
+
+---
+
+brain_box_msgs/WorldFeatures features
+bool success

@@ -212,6 +212,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	srv/SegmentSearch.srv
 	srv/VelocityControl.srv
 	srv/GetMissionStatus.srv
+	srv/LoadFlightPlan.srv
+	srv/ValidateFlightPlan.srv
 	srv/VxFlightPlan.srv
 	srv/VxMissionExec.srv
 	

@@ -1,0 +1,3 @@
+string[] checks_to_skip
+---
+brain_box_msgs/PreflightStatus result

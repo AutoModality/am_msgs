@@ -1,0 +1,5 @@
+---
+bool success
+string reason
+brain_box_msgs/PreflightStatus preflight_status
+brain_box_msgs/MissionStatus mission_status

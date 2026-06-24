@@ -7,6 +7,7 @@
 # key="FP_START" value="id"			start flight plan with id
 # key="FP_ABORT" value=""  			abort currently executing flight plan
 # key="FP_PAUSE" value=""			pause currently executing flight plan  
+# key="FP_RESUME" value=""			resume currently paused flight plan
 
 brain_box_msgs/KeyValue command
 

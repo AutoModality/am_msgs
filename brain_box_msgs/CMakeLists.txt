@@ -218,8 +218,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	srv/GetMissionStatus.srv
 	srv/LaunchMission.srv
 	srv/MissionPreflight.srv
+	srv/PauseMission.srv
 	srv/PreflightRun.srv
 	srv/LoadFlightPlan.srv
+	srv/ResumeMission.srv
 	srv/ValidateFlightPlan.srv
 	srv/VxFlightPlan.srv
 	srv/VxMissionExec.srv

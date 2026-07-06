@@ -1,0 +1,4 @@
+---
+brain_box_msgs/MissionStatus status
+bool success
+string reason

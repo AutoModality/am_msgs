@@ -116,6 +116,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/MarkerType.msg
 	msg/MaxMinAve.msg
 	msg/MissionIdArray.msg
+	msg/MissionEvent.msg
+	msg/MissionStatus.msg
+	msg/PreflightCheckResult.msg
+	msg/PreflightStatus.msg
 	msg/NodeStatus.msg
 	msg/NormalsStamped.msg
 	msg/NormalWithPoint.msg
@@ -210,6 +214,15 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	srv/SDKPermissionControl.srv
 	srv/SegmentSearch.srv
 	srv/VelocityControl.srv
+	srv/AbortMission.srv
+	srv/GetMissionStatus.srv
+	srv/LaunchMission.srv
+	srv/MissionPreflight.srv
+	srv/PauseMission.srv
+	srv/PreflightRun.srv
+	srv/LoadFlightPlan.srv
+	srv/ResumeMission.srv
+	srv/ValidateFlightPlan.srv
 	srv/VxFlightPlan.srv
 	srv/VxMissionExec.srv
 	

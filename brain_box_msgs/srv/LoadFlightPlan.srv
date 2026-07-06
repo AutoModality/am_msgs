@@ -1,0 +1,7 @@
+string plan_id_hint  # optional filename base; empty = derived from XML content
+string plan_content  # raw XML
+---
+bool success
+string reason
+string plan_id
+brain_box_msgs/MissionStatus status

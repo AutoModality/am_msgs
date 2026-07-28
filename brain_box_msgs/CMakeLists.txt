@@ -129,6 +129,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/OperatorCommand.msg
 	msg/OperatorMsg.msg
 	msg/PacketMsg.msg
+	msg/PackageInventory.msg
+	msg/PackageVersion.msg
 	msg/Parameter.msg
 	msg/ParameterArray.msg
 	msg/PassageFeature.msg

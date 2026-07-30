@@ -18,6 +18,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED) #for message generation
+find_package(builtin_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
@@ -186,6 +187,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/VxFCUStatus.msg
 	msg/VxFeaturePose.msg
 	msg/VxFlightPlanCmd.msg
+	msg/VxSegmentCompletionReason.msg
+	msg/VxFlightPlanSegmentCompletion.msg
 	msg/VxFlightPlanStatus.msg
 	msg/VxKinematics.msg
 	msg/VxManeuver.msg

@@ -152,6 +152,8 @@ add_message_files(
 	VxFCUStatus.msg
 	VxFeaturePose.msg
 	VxFlightPlanCmd.msg
+	VxSegmentCompletionReason.msg
+	VxFlightPlanSegmentCompletion.msg
 	VxFlightPlanStatus.msg
 	VxKinematics.msg
 	VxManeuver.msg
@@ -221,5 +223,3 @@ if (EXISTS include/${PROJECT_NAME})
 install(DIRECTORY include/${PROJECT_NAME}
  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION})
 endif()
-
-

@@ -86,6 +86,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	msg/GSPNStatus.msg
 	msg/GuidanceStatus.msg
 	msg/Heartbeat.msg
+	msg/Hist.msg
 	msg/Int32Stamped.msg
 	msg/IPSensorStatus.msg
 	msg/KeyValue.msg
